@@ -4,17 +4,13 @@
  */
 package titkosito;
 
-/**
- *
- * @author diak
- */
+
 public class Titkosito {
 
-    /**
-     * @param args the command line arguments
-     */
+  
     public static void main(String[] args) {
-        // TODO code application logic here
+        Kodolo k = new Kodolo();
+        System.out.println(k.kodol("aaa")); 
     }
     
 }
