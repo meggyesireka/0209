@@ -4,9 +4,16 @@ package titkosito;
 
 public class Titkosito {
 
+
     public static void main(String[] args) {
-        dekodolo k = new dekodolo();
-        System.out.println(k.dekodolo("cccc"));
-    }
+        dekodolo kd = new dekodolo();
+        
+        System.out.println(kd.dekodolo("ccc"));
+                
+   
+         Kodolo k = new Kodolo();
+         System.out.println(k.kodol("aaa")); 
+
     
+    }
 }
